@@ -1,0 +1,26 @@
+.auto-scroll {
+  animation: scrollUp 15s linear infinite;
+}
+
+@keyframes scrollUp {
+  0% {
+    transform: translatey(0);
+  }
+  100% {
+    transform: translatey(-50%);
+  }
+}
+
+.auto-scroll-right {
+  width: 300px;
+  animation: scrollRight 2s linear infinite;
+}
+
+@keyframes scrollRight {
+  0% {
+    transform: translatex(100%);
+  }
+  100% {
+    transform: translatex(50%);
+  }
+}

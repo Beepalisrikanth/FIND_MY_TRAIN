@@ -1,0 +1,93 @@
+.findTrainName{
+    margin: 0em 1em ;
+    background-color: white;
+    border: 1px solid black;
+    padding: 1em 2em ;
+    border-radius: 2em;
+}
+
+#findTrainNameBtn{
+    background-color: blue;
+    border-radius: 5em;
+    padding: 0.5em 0.5em;
+    width: 100%;
+    font-size: 1em;
+    color: white;
+
+}
+
+#sbt{
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+#searchLabel{
+    background-color: whitesmoke;
+    border: 0.1px solid rgb(194, 193, 193);
+    margin: 1em 0em;
+    display: flex;
+    padding: 0.2em;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.searchTrainNumber{
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    left: 10em;
+    margin: 10px 0px 0px 0px;
+}
+
+/* -----table---- */
+#SBTDT{
+    width: 90%;
+    margin: 2em auto 0em;
+    box-shadow:  0px 0px 20px 1px rgb(32 159 234);
+
+}
+.SBTDTR{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.SBTDTD{
+    color: orangered;
+    width: 100%;
+    padding: 0.2em 2em;
+    border: 1px solid rgb(32 159 234);
+}   
+
+.dayyes{
+    color: green;
+    background-color:rgb(32 159 234);
+    color: white;
+    /* border: 1px solid red; */
+    box-shadow: 0px 0px 10px 1px rgb(172, 167, 167);
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    flex-wrap: wrap;
+
+}
+
+.dayNo{
+    color: rgb(78, 78, 80);
+    /* background-color: rgb(157, 155, 152); */
+    /* border: 1px solid red; */
+    box-shadow: 0px 0px 10px 1px rgb(172, 167, 167);
+    padding: 5px;
+    width: 100%;
+     border-radius: 10px;
+    text-align: center;
+    
+}
+
+#SBTDTDa{
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-around;
+    
+}

@@ -1,0 +1,80 @@
+.SC{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+}
+.GSBtn{
+    background-color: blue;
+    padding: 0.2em 2em;
+    border-radius: 20px;
+    font-size: 1.5em;
+    
+}
+.GSBtn:hover{
+    background-color: aqua;
+}
+.GSBtn:active{
+    background-color: green;
+}
+
+.stationSection{
+    width: 100%;
+
+   
+}
+
+.stationBlock{
+    /* background-color: aquamarine; */
+    /* border: 1px solid red; */
+    border-radius: 50px;
+    margin: 2px;
+    overflow: hidden;
+
+    box-shadow: 0px 0px 10px 1px whitesmoke;
+
+   
+}
+
+.SBT{
+    width: 90%;
+    margin: 2em auto;
+    border-collapse: collapse;
+    overflow: hidden;
+    
+}
+
+.SBTB{
+   
+    width: 100%;
+    /* background-color: beige; */
+     overflow: hidden;
+
+}
+
+.SBTR{
+    border-radius: 5em;
+}
+
+#SBTR1 th:first-child{
+    border-top-left-radius:10px;
+}
+
+#SBTR1 th:last-child{
+    border-top-right-radius:10px;
+}
+
+
+.SBTH{
+    background-color: rgb(250, 250, 250);
+    /* border-radius: 2em; */
+    overflow: hidden;
+    padding: 2px 5em;
+    border: 1px solid black;
+}
+.SBTD{
+    /* background-color: blanchedalmond; */
+    padding: 2px 5em;
+    border: 1px solid black;
+    color: white;
+}
+

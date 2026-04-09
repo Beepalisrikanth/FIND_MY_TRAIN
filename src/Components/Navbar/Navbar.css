@@ -1,0 +1,59 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 1px 10px 1px black;
+}
+
+.leftNavBar{
+    display: flex;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+}
+
+
+.burgerMenu{
+    background-color:white;
+    border: none;
+}
+
+/* .logoSet{
+    border: 1px solid brown;
+    background-color: blanchedalmond;
+} */
+
+.logoImg{
+    padding: 0px 0px 0em 0px;
+}   
+
+.logoTitle{
+    padding: 0em 0px 0px 0px;
+    margin: 0px;
+}
+
+img{
+    height: 3em;
+    padding: 0.25em 1em ;
+    margin: 0.25em 0.5em;
+    border: none;
+}
+
+.rightNavBar{
+    display: flex;
+    align-items: center;
+}
+
+input{
+    height: 2em;
+    border-radius: 10px;
+    width: 15em;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 10px 0px 0px;
+
+}
+
+

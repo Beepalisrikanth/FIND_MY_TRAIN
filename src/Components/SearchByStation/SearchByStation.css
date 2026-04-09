@@ -1,0 +1,188 @@
+#SearchByStation{
+    margin: 0em 1em ;
+    background-color: white;
+    border: 1px solid black;
+    padding: 1em 2em ;
+    border-radius: 2em;
+}
+
+.SBSBtn{
+    background-color: blue;
+    border-radius: 5em;
+    padding: 0.5em 0.5em;
+    width: 100%;
+    font-size: 1em;
+    color: white;
+}
+
+#SBS{
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+.SBSL{
+    background-color: whitesmoke;
+    border: 0.1px solid rgb(194, 193, 193);
+    margin: 1em 0em;
+    display: flex;
+    padding: 0.2em;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.SBSI{
+    border: none;
+    width: 100%;
+    left: 0px;
+    /* padding: 0px; */
+    margin: 10px 0px 0px 0px;
+    /* text-align: left; */
+    background-color: transparent;
+}
+
+
+/* ----------------------shedule details ------------------- */
+
+.scheduledetails{
+    /* background: linear-gradient(orange,blue); */
+    margin: 1em;
+    padding: 1em;
+    border-radius: 30px;
+    box-shadow: 0px 0px 3px 3px rgb(232, 228, 228);
+}
+.trainSBST{
+    background-color:rgb(32 159 234);
+    width: 100%;
+    margin: 1em auto;
+    border-collapse: collapse;
+    padding: 0px 2em;
+    /* border-radius: 20px; */
+    box-shadow: 0px 0px 2px 2px black;
+    color: white;
+
+}
+.trSBST{
+    /* background-color: beige; */
+    /* width: 80%; */
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    
+}
+.tdSBST{
+    /* background-color: palegreen; */
+    border: 1px solid black;
+    padding: 0.5em 1em;
+    flex-wrap: wrap;
+}
+
+.TodaySchedule{
+    text-align: center;
+    font-weight: 800;
+    width: 100%;
+    font-size: 1.2em;
+    
+}
+
+/* ------------------ today trains------------------ */
+
+.todayTrain{
+    background-color: whitesmoke;
+    /* border: 1px solid red; */
+    box-shadow: 0px 0px 10px 1px rgb(32 159 234);
+    margin: 2em 1em;
+    padding: 2em;
+    border-radius: 20px;
+}
+
+.TSD1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.TSDD{
+    font-size: 1.5em;
+}
+
+.TSD2{
+    background-color:rgb(32 159 234);
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(253, 253, 253);
+    border-radius: 50px;
+    margin: 0px 1px;
+    color: white;
+}
+.TSD21{
+    font-size: 1.2em;
+    margin: 0em ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    padding: 0.5em;
+    /* border-radius: 0px 50% 0px 0px ; */
+
+}
+
+.TSD22{
+    /* background-color: blue; */
+    /* border: 1px solid black; */
+    padding: 1em;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.TSD221{
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+    border: 1px solid black;
+    box-shadow: 0px 0px 20px 2px orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    flex-direction: column;
+    padding: 5px;
+}
+
+#kmph{
+    font-size: 0.5em;
+    padding: 0px;
+}
+
+#trainType{
+    padding: 2px 0px 0px 0px;
+}
+
+.TSDF{
+    display: flex;
+    justify-content: space-around;
+    margin: 1em 0em 0em 0em;
+    padding: 0em;
+}
+
+.TSD21c1{
+    border: 1px solid black;
+    margin: 2em;
+    box-shadow: 0px 0px 20px 1px white;
+    border-radius: 20px;
+    padding: 1em;
+}
+
+#TSD21c{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+/* 
+#TSD21ca{
+
+} */
+
