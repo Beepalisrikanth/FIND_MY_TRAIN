@@ -1,5 +1,8 @@
 import { React, useState, createContext, useEffect } from 'react';
 const apiUrl = import.meta.env.VITE_TRAIN_API_KEY;
+const x_rapidapi_key = import.meta.env.VITE_x_rapidapi_key 
+const x_rapidapi_host = import.meta.env.VITE_x_rapidapi_host 
+
 export const TrainContext = createContext();
 
 const DataContext = ({ children }) => {
@@ -113,8 +116,8 @@ const DataContext = ({ children }) => {
       // const url =`https://irctc-indian-railway-pnr-status.p.rapidapi.com/getPNRStatus/${pnrNO}`
       const options = {
         headers: {
-          'x-rapidapi-key': 'ced4fe1d8amsh4205910a38f4a6fp102c18jsn5a06fc594fd1',
-          'x-rapidapi-host': 'irctc-indian-railway-pnr-status.p.rapidapi.com',
+          'x-rapidapi-key': x_rapidapi_key,
+          'x-rapidapi-host': x_rapidapi_host,
           'Content-Type': 'application/json'
           // 'X-API-Key': apiUrl,
           // 'Content-Type': 'application/json'

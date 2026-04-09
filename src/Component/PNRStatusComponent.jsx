@@ -73,7 +73,6 @@ const PNRStatusComponent = () => {
             <div className='bg-blue-400 h-[80vh]'>
                 <div className='text-center font-bold text-[1.5em]'>PNR STATUS</div>
                 {/* {pnrData ? */}
-
                 < div >
                     <div className='shadow m-2 p-3 bg-white rounded-[20px]'>
                         <div className='flex justify-between '>
@@ -116,7 +115,6 @@ const PNRStatusComponent = () => {
                                     </div>
                                     <div>
                                         {pnrData?.data?.dateOfJourney ? pnrData?.data?.dateOfJourney : "DD MM YYYY , HH:MM:SS , am/pm"}
-
                                     </div>
                                 </div>
 
@@ -162,9 +160,9 @@ const PNRStatusComponent = () => {
                                 {pnrData?.data?.passengerList?.map((v, i) => (
                                     <tr key={i}>
                                         <td className='p-2 border-2 border-blue-600 m-[2px]'>{i + 1}</td>
-                                        <td className='p-2 border-2 border-blue-600 m-[2px]'>{v.currentStatus} {v.currentCoachId} {v.currentBerthNo} {v.currentBerthCode}  </td>
-                                        <td className='p-2 border-2 border-blue-600 m-[2px]'>{v.bookingStatus} {v.bookingCoachId} {v.bookingBerthNo} {v.bookingBerthCode}</td>
-                                        <td className='p-2 border-2 border-blue-600 m-[2px]'>{bookingCoachId}</td>
+                                        <td className='p-2 border-2 border-blue-600 m-[2px]'>{v.currentStatus?v.currentStatus:"--"} {v.currentCoachId?v.currentCoachId:"--"} {v.currentBerthNo?v.currentBerthNo:"--"} {v.currentBerthCode?v.currentBerthCode:"--"}  </td>
+                                        <td className='p-2 border-2 border-blue-600 m-[2px]'>{v.bookingStatus?v.bookingStatus:"--"} {v.bookingCoachId?v.bookingCoachId:"--"} {v.bookingBerthNo?v.bookingBerthNo:"--"} {v.bookingBerthCode?v.bookingBerthCode:"--"}</td>
+                                        <td className='p-2 border-2 border-blue-600 m-[2px]'>{bookingCoachId?bookingCoachId:"--"}</td>
                                     </tr>
                                 ))}
                             </tbody>
