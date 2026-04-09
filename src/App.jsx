@@ -7,7 +7,7 @@ import NavBar from './Component/NavBar'
 import DashBoard from './pages/DashBoard'
 import LiveTrainWIthMap from './pages/LiveTrainWIthMap'
 
-import LiveStation from "./pages/liveStation"
+import LiveStation from "./pages/LiveStation"
 import Footer from "./Component/Footer"
 import PNRStatus from './pages/PNRStatus'
 
