@@ -37,7 +37,7 @@ const ExplorePopularRoutes = () => {
                     </div>
                 </div>
                 <div className={`flex w-[100%] `} >
-                    <div className={`flex  ${showAll ? "overflow-x-auto " : "flex-wrap"}`}>
+                    <div className={`flex  ${showAll ? "flex-wrap":"overflow-x-auto " }`}>
 
                         {famousStations.map((v, i) => (
                             <div onClick={()=>goto(v?.code)} key={i} className='w-[300px] grow space-y-3 shadow m-2 rounded-[10px] p-2 bg-blue-300/50 flex-shrink-0'>

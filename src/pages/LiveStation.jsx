@@ -78,8 +78,8 @@ const LiveStation = () => {
                                                 : "bg-blue-100"
 
                                     return (
-                                        <tr onClick={()=>goto(v?.train?.number)}  key={i} className={`${rowColor} overflow-hidden overflow-x-auto h-[80vh] cursor-pointer  hover:bg-red-100 `} style={{ height: "20px" }}>
-                                            <td  className=' bg-red-100 border p-2'>{v?.train?.number || "--"}</td>
+                                        <tr onClick={()=>goto(v?.train?.number)}  key={i} className={`${rowColor} overflow-hidden overflow-x-auto h-[80vh] cursor-pointer  hover:bg-blue-200 `} style={{ height: "20px" }}>
+                                            <td  className=' border p-2'>{v?.train?.number || "--"}</td>
 
                                             <td className='border p-2'>
                                                 {v?.train?.sourceStationCode || "--"} →
