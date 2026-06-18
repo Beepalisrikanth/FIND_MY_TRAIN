@@ -10,6 +10,7 @@ import LiveTrainWIthMap from './pages/LiveTrainWIthMap'
 import LiveStation from "./pages/LiveStation"
 import Footer from "./Component/Footer"
 import PNRStatus from './pages/PNRStatus'
+import Trainsbetweenstation from './pages/Trainsbetweenstation'
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/liveTrain/:trainNo" element={<LiveTrainWIthMap/>}/>
         <Route path="/currentStation/:stationCode" element={<LiveStation/>}/>
         <Route path="/pnrStatus/:pnr" element={<PNRStatus/>}/>
+        <Route path="/TrainDetails" element={<Trainsbetweenstation/>}/>
         <Route path="*" element={<h1>404</h1>}/>
       </Routes>
       <Footer />

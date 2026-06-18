@@ -61,11 +61,11 @@ const PNRStatusComponent = () => {
         const trainNoData = pnrData?.data?.trainNumber
 
         if (!trainNoData) return
-        // setTrainNo(paramsTrainNo)
-        // if(paramsTrainNo && trainNo.length==5){   
-        //     setTrainNo(trainNoData)
-        //     navigate(`/liveTrain/${trainNoData}`)
-        // }
+        setTrainNo(paramsTrainNo)
+        if(paramsTrainNo && trainNo.length==5){   
+            setTrainNo(trainNoData)
+            navigate(`/liveTrain/${trainNoData}`)
+        }
     }
 
     return (

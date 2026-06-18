@@ -15,14 +15,12 @@ const LiveTrainStatusQuickCheck = () => {
   const Navigate = useNavigate()
 
   const submit = ()=>{
-
     if(tNo){
       Navigate(`/liveTrain/${trainNo}`);
       setTrainNo(tNo)
     }
     else{
       alert(` ${trainNo.length} ${trainNo} enter a valid train number`)
-    
     }
   }
   useEffect(()=>{
