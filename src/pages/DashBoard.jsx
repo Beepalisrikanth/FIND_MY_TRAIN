@@ -22,14 +22,12 @@ import Announcement from '../Component/Announcement'
 
 
 const DashBoard = () => {
-
-    // const {ltData} = useContext(TrainContext)
     return (
         <div className='bg-blue-200' >
             <Banner />
             <div className='w-[100%] flex justify-center '>
 
-                <div className='flex flex-col justify-center items-center mt-[-150px]   w-[95%] '>
+                <div className='flex flex-col justify-center items-center mt-[-200px]   w-[95%] '>
                     <SearchTrainsBetweenStations />
                     <div className='w-[100%] flex justify-between my-3 gap-2 flex-wrap'>
                         <LiveTrainStatusQuickCheck />
@@ -45,17 +43,6 @@ const DashBoard = () => {
                     </div>
                 </div >
             </div>
-            {/* 
-            <TrainDetails/>
-            
-            
-            
-            
-            <br/>
-            <br/> */}
-
-
-            {/* <PNRStatusComponent/> */}
         </div>
     )
 }
